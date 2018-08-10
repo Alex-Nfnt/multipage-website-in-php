@@ -116,5 +116,8 @@ Nous avons tous les deux beaucoup appris, et nous avons une vision plus cohéren
 Nos préférences préalables quant au dévelopement web se sont aussi renforcées grace à ce challenge.
 
 Nous sommes content de notre travail dans l'ensemble, mais nous somme bien sur conscient qu'il reste enormément à améliorer. 
-
+- Lighthouse pas top;
+- Progressive web app ne fonctionne pas malgré nos multiples tentatives ( detecte pas le service worker);
+- gros problèmes avec heroku : le deploiement ne se fait pas, message d'erreur qu'on ne comprend pas;
+- form-logs.php pas fait. (coming soon)
  
