@@ -6,13 +6,20 @@
 <html>
 	<head>
 		<title>Les Petits Rien</title>
+			<meta charset="utf-8">
+		  	 <meta name="viewport" content="width=device-width, initial-scale=1">
+			  <meta name="theme-color" content="white">
+
+			  <meta name="msapplication-TileImage" content="img/lougou192.png">
+			  <meta name="msapplication-TileColor" content="#2F3BA2">
+
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="style.css" />
         <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Anton|Lobster" rel="stylesheet">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -131,6 +138,20 @@
         require("footer.php");
         ?>
 
+
+				<script type="text/javascript">
+				if ('serviceWorker' in navigator) {
+				  window.addEventListener('load', function() {
+				    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+				      // Registration was successful
+				      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+				    }, function(err) {
+				      // registration failed :(
+				      console.log('ServiceWorker registration failed: ', err);
+				    });
+				  });
+				}
+					</script>
 
 	</body>
 </html>
