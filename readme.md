@@ -6,7 +6,7 @@
  - J'ai besoin de rafraichir mon site web ! www.lespetitsriens.be
  - J'aurais besoin d'un site avec plusieurs pages pour bien séparer le contenu.
  - J'aimerais bien que les visiteurs de mon site puissent m'envoyer un mail via un formulaire de contact avec une petite photo.
- 
+
 ## Consignes particulières
 
 * 3 branches Github
@@ -34,7 +34,7 @@
   -  Faire une page supplémentaire (/form-logs.php) qui affiche le contenu du log sans mentionner les noms de famille, ni les Adresses mails.
    - Lorsque l'utilisateur fait des erreurs d'encodage, les messages d'erreur s'affichent à proximité du champs concerné et sont pertinents
    - mockup: [mockup](mockup.png)
-   
+
 ## Liste des objectifs d'apprentissage (OA)
 
 Grâce à ce projet, je voudrais apprendre (choisis environ 6 ou 7 OA) :
@@ -91,30 +91,33 @@ frontend : sélection et mise en place d'un framework CSS
 
 ## Equipe
 
-Bonjour, 
+Bonjour,
 
-Nous voici: Alexandre et Julie, tous les deux juniors developpers a Becode. 
-Du haut de nos 26 ans, nous avons attaqué à pleine dent ce challenge en 7 jours, avec entreinte et bonne humeur. 
+Nous voici: Alexandre et Julie, tous les deux juniors developpers a Becode.
+Du haut de nos 26 ans, nous avons attaqué à pleine dent ce challenge en 7 jours, avec entreinte et bonne humeur.
 Notre entente fut superbe, et nous etions sur la même longueur d'onde du début à la fin.
 
-### Organisation 
+### Organisation
 
 Dés le premier jour, nous avons clairement repartis nos tâches:
-Julie s'occupera du front end, Alex du back end. 
-Etant donné que ce dernier est plus large et complexe, nous avons finalement collaboré pour y parvenir. 
+Julie s'occupera du front end, Alex du back end.
+Etant donné que ce dernier est plus large et complexe, nous avons finalement collaboré pour y parvenir.
 
-Nous n'avions pas le droit de nous rencontrer en face à face, et nous avons donc communiqué via Ryver, par chat, afin de coordonner nos actes. 
+Nous n'avions pas le droit de nous rencontrer en face à face, et nous avons donc communiqué via Ryver, par chat, afin de coordonner nos actes.
 
-Nous avons utilisé Github afin d'heberger notre projet momentanément, et avons créé 3 branches. 
+Nous avons utilisé Github afin d'heberger notre projet momentanément, et avons créé 3 branches.
 
-Le dernier jour, un push sur la branche finale master a été fait. 
+Le dernier jour, un push sur la branche finale master a été fait.
 
 ## Nos conclusions
 
-Au niveau de l'équipe, tout s'est très bien passé, nos rythmes furent coordonnés et nous etions dans le même état d'esprit calme, et organisé. 
-Nous avons tous les deux beaucoup appris, et nous avons une vision plus cohérente et objective du back end (php). 
+Au niveau de l'équipe, tout s'est très bien passé, nos rythmes furent coordonnés et nous etions dans le même état d'esprit calme, et organisé.
+Nous avons tous les deux beaucoup appris, et nous avons une vision plus cohérente et objective du back end (php).
 Nos préférences préalables quant au dévelopement web se sont aussi renforcées grace à ce challenge.
 
-Nous sommes content de notre travail dans l'ensemble, mais nous somme bien sur conscient qu'il reste enormément à améliorer. 
-
+Nous sommes content de notre travail dans l'ensemble, mais nous somme bien sur conscient qu'il reste enormément à améliorer.
+- Lighthouse pas top;
+- Progressive web app ne fonctionne pas malgré nos multiples tentatives ( detecte pas le service worker);
+- gros problèmes avec heroku : le deploiement ne se fait pas, message d'erreur qu'on ne comprend pas;
+- form-logs.php pas fait. (coming soon)
  
