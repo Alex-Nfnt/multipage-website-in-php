@@ -1,4 +1,4 @@
-
+<!--
 
 
 <!DOCTYPE HTML>
@@ -30,8 +30,7 @@
 	<body>
 
 
-       <?php require("header.php");
-       ?>
+     <?php require("header.php"); ?>
 
         <main>
             <p class="introtop" >L’ASBL Les Petits Riens est une entreprise d’économie sociale dont la mission est d’accompagner les personnes en difficulté afin qu’elles gagnent de l’autonomie de façon durable.</p>
@@ -134,9 +133,9 @@
 
         </main>
 
-        <?php
+         <!-- <?php
         require("footer.php");
-        ?>
+        ?>  -->
 
 
 				<script type="text/javascript">
@@ -154,4 +153,4 @@
 					</script>
 
 	</body>
-</html>
+</html> -->
