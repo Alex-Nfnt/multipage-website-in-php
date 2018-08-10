@@ -117,6 +117,8 @@ Nos préférences préalables quant au dévelopement web se sont aussi renforcé
 
 Nous sommes content de notre travail dans l'ensemble, mais nous somme bien sur conscient qu'il reste enormément à améliorer.
 - Lighthouse pas top;
+![alt text](lighthouse.png)
+
 - Progressive web app ne fonctionne pas malgré nos multiples tentatives ( detecte pas le service worker);
 - gros problèmes avec heroku : le deploiement ne se fait pas, message d'erreur qu'on ne comprend pas;
 - form-logs.php pas fait. (coming soon)
