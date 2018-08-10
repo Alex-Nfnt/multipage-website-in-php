@@ -1,6 +1,3 @@
-<!--
-
-
 <!DOCTYPE HTML>
 
 <html>
@@ -133,9 +130,9 @@
 
         </main>
 
-         <!-- <?php
+       <?php
         require("footer.php");
-        ?>  -->
+        ?>
 
 
 				<script type="text/javascript">
@@ -153,4 +150,4 @@
 					</script>
 
 	</body>
-</html> -->
+</html>
